@@ -1,7 +1,7 @@
 
 # Criando Uma Calculadora Com React
 
-Este é um projeto de uma calculadora que foi desenvolvido para atender o desafio do curso - XP Inc. - Full Stack Developer em parceria com a DIO.
+Este é um projeto de uma calculadora que foi desenvolvido para atender o desafio do curso - XP Inc. - Full Stack Developer - Módulo: Introdução a Front End com React.
 
 
 ## Foram realizadas as seguinte modificações no código base.
