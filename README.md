@@ -1,3 +1,78 @@
+
+# Criando Uma Calculadora Com React
+
+Este é um projeto de uma calculdora que foi desenvolvido para atenter o desafio do curso - XP Inc. - Full Stack Developer em parceria com a DIO.
+
+
+## Foram realizadas as seguinte modificações no código base.
+
+
+## Adição de Botões e Funcionalidades
+
+Botões Adicionados:
+
+< (Backspace): Remove o último dígito do número atual.
+
+0 (Zero): Adiciona o dígito zero ao número atual.
+
+, (Vírgula): Adiciona uma vírgula (ou ponto) ao número atual, para suportar números decimais.
+
+= (Equals): Realiza a operação matemática baseada na operação selecionada.
+
+
+## Funções Correspondentes:
+
+handleBack: Remove o último caractere do currentNumber ou redefine o número para '0' se for um único caractere.
+
+handleAddNumber: Adiciona o número ou ponto (,), conforme o botão pressionado.
+
+handleEquals: Executa a operação matemática baseada na operação selecionada e atualiza o resultado no display.
+
+
+## Operações Matemáticas:
+
+Soma (+): Calcula a soma de dois números. Se firstNumber estiver vazio, é definido o número atual como firstNumber e a operação é definida como soma. Caso contrário, a soma é calculada e exibida.
+
+Subtração (-): Calcula a subtração entre dois números. Funciona de forma semelhante à soma.
+
+Multiplicação (*): Calcula o produto de dois números. Se firstNumber estiver vazio, o número atual é definido como firstNumber e a operação é definida como multiplicação. Caso contrário, o produto é calculado e exibido.
+
+Divisão (/): Calcula a divisão entre dois números. O processo é análogo às operações de soma e subtração.
+
+
+## Funções Avançadas
+
+PI (π): Adiciona o valor de π ao display do resultado. Implementado com a função handlePi.
+
+Raiz Quadrada (√): Calcula a raiz quadrada do número atual e atualiza o display. Implementado com a função handleSquareRoot.
+
+
+# Eventos do Teclado
+
+Captura de Teclas: Adiciona suporte para teclas do teclado físico:
+
+Enter: Executa a operação (handleEquals).
+
+Backspace: Remove o último caractere do número (handleBack).
+
+Delete: Limpa a calculadora (handleOnClear).
+
+Operações matemáticas (+, -, *, /): Executa a operação correspondente.
+
+Números (0-9): Adiciona o número ao display.
+
+Vírgula (,): Adiciona um ponto decimal.
+
+π e √: Executa as funções correspondentes para π e raiz quadrada.
+
+
+# Hooks e Cleanup
+
+useEffect: Adiciona um listener para eventos de teclado (keydown) e remove-o quando o componente é desmontado, garantindo que o evento seja limpo corretamente.
+
+Essas mudanças transformaram a calculadora em uma ferramenta mais completa, com suporte para operações matemáticas básicas e avançadas, além da funcionalidade de teclado.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +143,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
